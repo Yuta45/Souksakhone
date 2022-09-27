@@ -1,0 +1,96 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: darkgrey;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  
+}
+
+.header{
+  display: flex;
+  justify-content:right;
+}
+
+.box{
+  background-color: #7F4B40;
+  height: 600px;
+  width: 90%;
+  margin: 20px;
+  margin-top: 50px;
+  margin-left: 45px;
+  padding: 20px;
+  border: solid;
+  border-color: white;
+  border-radius: 10px;
+}
+
+.login-form{
+  margin-top: 10%;
+  padding-left: 65%;
+  text-align: start;
+
+
+}
+
+#login{
+  margin-bottom:10px;
+}
+
+#email{
+  height: 30px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+#password{
+  height: 30px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.remember-form{
+  margin-bottom: 10px;
+}
+
+#button{
+  width: 175px;
+  height: 35px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+  background-color: cadetblue;
+  display: inline-block;
+  border-radius: 30px;
+  
+}
+
+.forget-pass{
+  margin-top: 10px;
+}
+
+#signup{
+  width: 100px;
+  height: 35px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border:none;
+  background-color: cadetblue;
+  
+}
+
+#need{
+margin: 10px;
+}
+
+#img{
+  width: 50%;
+  height: 90%;
+  float: left;
+  margin: 30px;
+ 
+}
